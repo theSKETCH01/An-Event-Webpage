@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Promotion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .event-details {
+            margin: 20px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .registration-form input, .registration-form button {
+            padding: 12px;
+            margin: 10px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            border: none;
+        }
+        .registration-form input {
+            width: 80%;
+            max-width: 400px;
+        }
+        .registration-form button {
+            background-color: #ffcc00;
+            color: black;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .registration-form button:hover {
+            background-color: #ffa500;
+        }
+        .speakers {
+            margin-top: 40px;
+        }
+        .speaker {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+        }
+        .speaker p strong {
+            font-size: 1.5em;
+            color: #ffcc00;
+        }
+        button {
+            background-color: #ff9800;
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upcoming Event: Tech Innovators 2025</h1>
+        <div class="event-details">
+            <p><strong>Date:</strong> March 15, 2025</p>
+            <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+            <p><strong>Location:</strong> Central Auditorium, Parul University </p>
+        </div>
+        <div class="registration-form">
+            <h2>Register Now</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button>Register</button>
+        </div>
+        <div class="speakers">
+            <h2>Featured Speakers</h2>
+            <div class="speaker">
+                <p><strong>Shashwat Sharma</strong></p>
+                <p>AI Specialist</p>
+            </div>
+            <div class="speaker">
+                <p><strong>Shubham Singh</strong></p>
+                <p>Cybersecurity Expert</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
